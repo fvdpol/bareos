@@ -461,6 +461,7 @@ else() # run systemtests on source and compiled files
 
   get_target_property(FD_PLUGINS_DIR_TO_TEST bpipe-fd BINARY_DIR)
   get_target_property(SD_PLUGINS_DIR_TO_TEST autoxflate-sd BINARY_DIR)
+
   if(TARGET python-dir)
     get_target_property(DIR_PLUGINS_DIR_TO_TEST python-dir BINARY_DIR)
   else()
